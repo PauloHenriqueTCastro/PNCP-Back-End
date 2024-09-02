@@ -6,11 +6,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+//código responsável por criar os getters, setters e construtores.
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 
+//código responsável pela criação do modelo ao qual o banco de dados vai seguir. Possui um uma criação
+// automática de ID que automaticamente identifica qual id existe ou não.
 @Entity
 public class ContractModel {
 

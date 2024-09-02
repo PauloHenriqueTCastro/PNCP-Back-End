@@ -4,9 +4,7 @@ import com.paulo.pnpc_back_end.models.ContractModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
+//código responsável por acessar o banco de dados.
 @Repository
 public interface ContractRepository extends JpaRepository<ContractModel, Long> {
-
 }
